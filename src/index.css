@@ -3,3 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
